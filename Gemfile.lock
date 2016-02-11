@@ -1,4 +1,15 @@
+GIT
+  remote: https://github.com/macournoyer/thin.git
+  revision: d0aef2e80216701b48b908dc14befe3600a44346
+  ref: d0aef2e80216701b48b908dc14befe3600a44346
+  specs:
+    thin (1.6.4)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (~> 1.0)
+
 GEM
+  remote: https://rubygems.org/
   specs:
     daemons (1.2.3)
     etcd (0.3.0)
@@ -12,10 +23,6 @@ GEM
       rack (~> 1.5)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
-    thin (1.6.4)
-      daemons (~> 1.0, >= 1.0.9)
-      eventmachine (~> 1.0, >= 1.0.4)
-      rack (~> 1.0)
     tilt (2.0.2)
     trollop (2.1.2)
 
@@ -26,7 +33,7 @@ DEPENDENCIES
   etcd
   eventmachine
   sinatra
-  thin
+  thin!
   trollop
 
 BUNDLED WITH
