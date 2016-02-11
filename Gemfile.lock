@@ -1,0 +1,33 @@
+GEM
+  specs:
+    daemons (1.2.3)
+    etcd (0.3.0)
+      mixlib-log
+    eventmachine (1.0.9.1)
+    mixlib-log (1.6.0)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    thin (1.6.4)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (~> 1.0)
+    tilt (2.0.2)
+    trollop (2.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  etcd
+  eventmachine
+  sinatra
+  thin
+  trollop
+
+BUNDLED WITH
+   1.11.2

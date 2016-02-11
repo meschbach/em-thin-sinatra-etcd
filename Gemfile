@@ -1,0 +1,5 @@
+gem 'thin'
+gem 'eventmachine'
+gem 'etcd'
+gem 'sinatra'
+gem 'trollop'
