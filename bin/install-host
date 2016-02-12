@@ -1,0 +1,11 @@
+#!/bin/bash
+
+script_name=`realpath $0`
+base_name=`basename $script_name`
+bin_dir=`dirname $script_name`
+base_dir=`dirname $bin_dir`
+
+export BUNDLE_GEMFILE="$base_dir/Gemfile"
+
+export RBENV_DIR="$base_dir"
+exec bundle exec ruby $base_dir/$base_name.rb $@
